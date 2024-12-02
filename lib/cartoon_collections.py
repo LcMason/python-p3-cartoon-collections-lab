@@ -4,8 +4,11 @@ def roll_call_dwarves(names):
         print(f"{index}. {name}")
 
 
-def summon_captain_planet():
+def summon_captain_planet(planeteer_calls):
     pass
+    return [call.capitalize() + "!" for call in planeteer_calls]
+
+
 
 def long_planeteer_calls():
     pass
